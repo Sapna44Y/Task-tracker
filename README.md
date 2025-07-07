@@ -1,11 +1,12 @@
 # Personal Task Tracker
 
+![Task Tracker Screenshot](screenshot.png) <!-- Add your screenshot file -->
+
 A responsive task management application built with React that helps users organize their daily tasks efficiently.
 
 ## 🚀 Features
 
 ### Core Features
-
 - **User Authentication**
   - Simple login with username and email
   - Persistent session using localStorage
@@ -23,7 +24,6 @@ A responsive task management application built with React that helps users organ
   - Maintains state after page refresh
 
 ### Bonus Features
-
 - Dark/Light mode toggle
 - Responsive design for all devices
 - Task categories/tags
@@ -46,4 +46,3 @@ A responsive task management application built with React that helps users organ
    ```bash
    git clone https://github.com/your-username/personal-task-tracker.git
    cd personal-task-tracker
-   ```
