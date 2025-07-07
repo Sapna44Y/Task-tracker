@@ -62,6 +62,6 @@ A responsive personal task management application built with React.js that allow
 
    ```bash
    git clone https://github.com/your-username/task-tracker.git
-   cd task-tracker
+   
 
 
