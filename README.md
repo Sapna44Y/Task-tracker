@@ -1,10 +1,12 @@
 # Personal Task Tracker
-
-![Task Tracker Screenshot](screenshot.png) <!-- Add your screenshot file -->
-
-A responsive task management application built with React that helps users organize their daily tasks efficiently.
-
-## 🚀 Features
+A responsive personal task management application built with React.js that allows users to:
+- Create, edit, and delete tasks
+- Mark tasks as complete/incomplete
+- Filter tasks by status (All/Completed/Pending)
+- Search tasks by title, description, or category
+- Organize tasks with priorities and due dates
+- Toggle between light/dark mode
+##  Features
 
 ### Core Features
 - **User Authentication**
@@ -31,7 +33,7 @@ A responsive task management application built with React that helps users organ
 - Priority levels
 - Smooth animations and transitions
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **Frontend**
   - React.js (Functional Components with Hooks)
@@ -40,9 +42,23 @@ A responsive task management application built with React that helps users organ
   - date-fns for date formatting
   - react-icons for icons
 
-## 🖥️ Setup Instructions
+  **Core Stack**
+  -React.js 
+  -Vite (npm create vite@latest task-tracker --template react)
+  -Styled Components (CSS-in-JS)
+  -date-fns (Date formatting)
+  -React Icons (Icon library)
+  
+**Development Tools**
+  -ESLint (Code linting)
+   -Prettier (Code formatting)
+   -React DevTools
+
+## Setup Instructions
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/personal-task-tracker.git
-   cd personal-task-tracker
+   git clone https://github.com/your-username/task-tracker.git
+   cd task-tracker
+
+
