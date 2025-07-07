@@ -1,13 +1,48 @@
-# React + Vite
+# Personal Task Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Task Tracker Screenshot](screenshot.png) <!-- Add your screenshot file -->
 
-Currently, two official plugins are available:
+A responsive task management application built with React that helps users organize their daily tasks efficiently.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+### Core Features
+- **User Authentication**
+  - Simple login with username and email
+  - Persistent session using localStorage
+- **Task Management**
+  - Add new tasks with title, description, priority, due date, and categories
+  - Edit existing tasks
+  - Mark tasks as complete/incomplete
+  - Delete tasks with confirmation
+- **Task Organization**
+  - Filter tasks by status (All/Completed/Pending)
+  - Search across titles, descriptions, and categories
+  - Visual priority indicators (High/Medium/Low)
+- **Data Persistence**
+  - All data saved to localStorage
+  - Maintains state after page refresh
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# Task-tracker
+### Bonus Features
+- Dark/Light mode toggle
+- Responsive design for all devices
+- Task categories/tags
+- Due date tracking
+- Priority levels
+- Smooth animations and transitions
+
+## 🛠️ Technologies Used
+
+- **Frontend**
+  - React.js (Functional Components with Hooks)
+  - React Router for navigation
+  - styled-components for styling
+  - date-fns for date formatting
+  - react-icons for icons
+
+## 🖥️ Setup Instructions
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/your-username/personal-task-tracker.git
+   cd personal-task-tracker
